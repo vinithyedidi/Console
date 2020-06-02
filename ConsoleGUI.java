@@ -35,9 +35,9 @@ public class ConsoleGUI implements ActionListener {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		textArea = new JTextArea(24, 80);
-	    textArea.setBackground(Color.BLACK);
-	    textArea.setForeground(Color.LIGHT_GRAY);
-	    textArea.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 14));
+	    	textArea.setBackground(Color.BLACK);
+	   	 textArea.setForeground(Color.LIGHT_GRAY);
+	    	textArea.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 14));
 		textArea.setEditable(true);
 		textArea.setLineWrap(true);
 		
