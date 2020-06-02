@@ -3,7 +3,7 @@ Author: Vinith Yedidi
 Version: 1.0
 Date: 6/2/2020
  
-An application that runs a console.
+An application that runs a Windows console. Mac functionality will be added with later updates.
 
 It uses Swing programming to make a GUI. At the moment, there is no scroll bar, so you have to use the "clear" command in order to clear   the screen.
 
