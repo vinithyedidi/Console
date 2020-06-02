@@ -19,8 +19,6 @@ public class Console {
 	public static String getOS() throws OSException {
 		if (System.getProperty("os.name").toLowerCase().contains("windows")) {
 			return "windows";
-		} else if (System.getProperty("os.name").toLowerCase().contains("mac")) {
-			return "mac";
 		} else {
 			throw new OSException("Unsupported operating system");
 		}
