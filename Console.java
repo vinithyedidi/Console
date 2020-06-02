@@ -37,8 +37,6 @@ public class Console {
 		String[] command;
 		if (getOS().contentEquals("windows")) { 
 			command = new String[] {"cmd.exe", "/c", input};
-		} else if (getOS().contentEquals("mac")) {
-			command = new String[] {input};
 		} else {
 			throw new OSException("Unsupported operating system");
 		}
